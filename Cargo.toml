@@ -1,0 +1,11 @@
+[package]
+name = "conveyor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+logic = { path = "./logic" }
+interface = { path = "./interface" }
+
+[workspace]
+members = [ "interface","logic"]
